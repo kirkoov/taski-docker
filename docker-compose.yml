@@ -5,7 +5,7 @@ version: '3'
 
 # Перечень volume
 volumes:
-  pg_data:
+  pg_data:  # Use the default settings
 
 # Перечень контейнеров
 services:
