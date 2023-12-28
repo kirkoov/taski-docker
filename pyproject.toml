@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "taski-docker"
+version = "0.1.0"
+description = "A Docker automatization sample."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.10"
+django = "3.2.16"
+djangorestframework = "3.12.4"
+django-cors-headers = "3.13.0"
+psycopg2-binary = "2.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.9"
+flake8 = "6.0.0"
+flake8-isort = "6.0.0"
+
+[tool.ruff]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".git",
+    ".git-rewrite",
+    ".mypy_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "migrations"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
