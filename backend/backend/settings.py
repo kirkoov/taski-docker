@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "defaultVal")
 
 DEBUG = os.getenv("DEBUG", "false").lower() == "true"
 
-ALLOWED_HOSTS = ["77.222.43.136"]
+ALLOWED_HOSTS = ["77.222.43.136", "127.0.0.1", "localhost", "taski.zapto.org"]
 
 # Application definition
 INSTALLED_APPS = [
