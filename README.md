@@ -2,16 +2,17 @@
 
 ## Description
 
-- This Django+Postgre+Docker+GitHubActions+yaml+TelegramBot for CI/CD learning project is based on YandexPracticum's template (inc. React) and serves to store your current tasks as complete or planned for the future
-- The motivation behind is better learn this backend dev stack and include it in my portfolio to demo my skills
-- Once modified locally, this project moves on along the yaml-based orchestration to rebuild the docker images accordingly and auto-redeploy to the live server
-- When the pending deploy is there, my Telegram bot sends me an `OK` message
+- This Django+Postgre+Docker+GitHubActions+yaml+TelegramBot for CI/CD project is based on YandexPracticum's template (inc. React) and serves to store your current tasks as complete or otherwise, e.g. planned for the future
+- The motivation behind is better learn this backend dev stack and include it in my portfolio
+- Once modified locally and pushed to its GitHub repo, this project moves on along the yaml-based orchestration lines to Actions-rebuild the docker images accordingly and auto-redeploy them to the live server
+- When the deploy is there, my Telegram bot sends me an `OK` message
 
 ## Table of Contents
 
 - [Usage](#usage)
 - [Credits](#credits)
 - [Licence](#licence)
+- [How to contribute](#how-to-contribute)
 
 ## Usage
 
@@ -22,14 +23,13 @@
 
 ## Credits
 
-Fork from YandexPracticum's repo [here](https://github.com/yandex-praktikum/taski-docker).
-
-In interested, follow their [courses](https://practicum.yandex.ru/catalog/programming/?from=main_header-programming_button) .
+- Fork from YandexPracticum's repo [here](https://github.com/yandex-praktikum/taski-docker)
+- If interested, follow their [courses](https://practicum.yandex.ru/catalog/programming/?from=main_header-programming_button) 
 
 ## Licence
 
-MIT or help me take a better pick at [https://choosealicense.com/](https://choosealicense.com/).
+MIT [https://choosealicense.com/](https://choosealicense.com/).
 
-## How to Contribute
+## How to contribute
 
-Feel free to contact me in case you'd like to make it look and work better. Wise folks advise some reading at [Contributor Covenant](https://www.contributor-covenant.org/) which is a standard to start with.
+Feel free to contact me in case you'd like to make Tasks look or work better. Wise folks advise to look at the [Contributor Covenant](https://www.contributor-covenant.org/) which looks like a standard to start with.
