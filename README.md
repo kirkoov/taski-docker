@@ -32,4 +32,4 @@ MIT [https://choosealicense.com/](https://choosealicense.com/).
 
 ## How to contribute
 
-Feel free to contact me in case you'd like to make Tasks look or work better. Wise folks advise to look at the [Contributor Covenant](https://www.contributor-covenant.org/) which looks like a standard to start with.
+Feel free to contact me in case you'd like to make Tasks look or work better. Wise folks advise to visit the [Contributor Covenant](https://www.contributor-covenant.org/) which seems a good start.
