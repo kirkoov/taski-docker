@@ -5,7 +5,7 @@
 - This Django+Postgre+Docker+GitHubActions+yaml+TelegramBot for CI/CD learning project is based on YandexPracticum's template (inc. React) and serves to store your current tasks as complete or planned for the future
 - The motivation behind is better learn this backend dev stack and include it in my portfolio to demo my skills
 - Once modified locally, this project moves on along the yaml-based orchestration to rebuild the docker images accordingly and auto-redeploy to the live server
-- When the pending deploy is there, my Telegram bot sends me an OK message
+- When the pending deploy is there, my Telegram bot sends me an `OK` message
 
 ## Table of Contents
 
