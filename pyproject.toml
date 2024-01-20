@@ -13,6 +13,8 @@ djangorestframework = "3.12.4"
 django-cors-headers = "3.13.0"
 psycopg2-binary = "2.9.3"
 python-dotenv = "^1.0.0"
+djangorestframework-stubs = "^3.14.5"
+django-stubs = "^4.2.7"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -20,6 +22,16 @@ ruff = "^0.1.9"
 flake8 = "6.0.0"
 flake8-isort = "6.0.0"
 black = "^23.12.1"
+mypy = "^1.8.0"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
+
+[tool.django-stubs]
+django_settings_module = "backend.settings"
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.

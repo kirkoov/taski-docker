@@ -64,7 +64,7 @@ const App = () => {
           <div className="card p-3">
             <div className="mb-4">
               <button className="btn btn-primary" onClick={createTask}>
-                Add task
+                Add a task
               </button>
             </div>
             <TabList
